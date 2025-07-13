@@ -6,6 +6,16 @@ __pycache__/
 # C extensions
 *.so
 
+*.pyd
+*.dll
+*.pdb
+*.lib
+*.tsv
+*.tfevents
+notebook/catboost_info/
+__pycache__/
+venv/
+
 # Distribution / packaging
 .Python
 build/
