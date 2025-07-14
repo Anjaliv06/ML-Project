@@ -3,6 +3,7 @@ import pandas as pd
 from src.mlproject.pipelines.prediction_pipeline import CustomData, PredictPipeline
 
 st.title("Student Performance Predictor")
+# Trigger Streamlit redeploy
 
 # Streamlit form
 with st.form("prediction_form"):
