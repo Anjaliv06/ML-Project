@@ -9,6 +9,6 @@ pymysql
 scikit-learn
 catboost
 xgboost
-dill
+pickle
 Flask
 # -e .
