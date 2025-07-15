@@ -1,9 +1,10 @@
 services:
   - type: web
-    name: flask-ml-student-predictor
+    name: streamlit-ml-app
     env: python
-    buildCommand: ""
-    startCommand: "python app.py"
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "streamlit run streamlit_app.py --server.port=$PORT --server.enableCORS=false"
     envVars:
       - key: PYTHON_VERSION
         value: 3.10
+
